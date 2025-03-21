@@ -1,0 +1,22 @@
+package com.demo;
+
+public interface MultipleInherit extends Parent3,Parent4,Parent5 {
+	
+		public void hello();
+		public void java();
+}
+
+interface Parent3{
+	public void hello();
+	public void java();
+}
+interface Parent4{
+	public void hello();
+	public void java();
+}
+
+interface Parent5{
+	public void hello();
+	public void java();
+}
+
