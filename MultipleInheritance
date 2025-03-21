@@ -1,0 +1,16 @@
+package com.demo;
+
+public class MultipleINheritance {
+	public static void main(String []args) {
+		MultipleInherit x=new MultipleInherit() {
+			public void hello(){
+				
+			}
+			public void java() {
+				
+			}
+			
+		};
+	}
+
+}
